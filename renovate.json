@@ -21,7 +21,7 @@
         "Dockerfile"
       ],
       "matchStrings": [
-        "datasource=(?<datasource>.*?) depName=(?<depName>.*?)( lookupName=(?<lookupName>.*?))?( versioning=(?<versioning>.*?))?\\sRUN install-[a-z]* [a-z]* (?<currentValue>.*).*
+        "datasource=(?<datasource>.*?) depName=(?<depName>.*?)( lookupName=(?<lookupName>.*?))?( versioning=(?<versioning>.*?))?\\sRUN install-[a-z]* [a-z]* (?<currentValue>.*).*"
       ],
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
     }
