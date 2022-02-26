@@ -21,7 +21,7 @@
         "Dockerfile"
       ],
       "matchStrings": [
-        ".*# renovate: datasource=(?<datasource>\\S+) lookupName=(?<depName>\\S+)( versioning=(?<versioning>.*?))?\\sRUN install-[a-z]* [a-z]* (?<currentValue>.*)\\s.*"
+        "datasource=(?<datasource>.*?) depName=(?<depName>.*?)( lookupName=(?<lookupName>.*?))?( versioning=(?<versioning>.*?))?\\sRUN install-[a-z]* [a-z]* (?<currentValue>.*).*
       ],
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
     }
