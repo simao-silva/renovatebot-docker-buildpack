@@ -13,7 +13,7 @@ ARG USER_NAME=ubuntu
 # Note: Only used to force a new build to keep up with
 #       the newest changes in the upstream repository
 #--------------------------------------
-FROM renovate/buildpack:6@sha256:33fd07dbab9b62e84eb346255d8a0f9b47aede116cc437adb7c19ca577896957
+FROM renovate/buildpack:6@sha256:2b8bf1c665790447494e881ed85ba0ccc93740172e2b4f496cf625657110bfb2
 
 #--------------------------------------
 # Image: containerbase/buildpack
