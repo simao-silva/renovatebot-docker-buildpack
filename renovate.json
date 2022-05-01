@@ -5,6 +5,25 @@
   ],
   "packageRules": [
     {
+      "matchPackageNames": [
+        "ubuntu"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch"
+      ],
+      "enabled": false
+    },
+    {
+      "matchPackageNames": [
+        "ubuntu"
+      ],
+      "allowedVersions": "<22",
+      "automerge": true,
+      "automergeType": "branch"
+    },
+    {
       "matchUpdateTypes": [
         "major",
         "minor",
@@ -27,6 +46,6 @@
     }
   ],
   "prHourlyLimit": 0,
-  "requiredStatusChecks": null,
+  "ignoreTests": true,
   "platformAutomerge": true
 }
