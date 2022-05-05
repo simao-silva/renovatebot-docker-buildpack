@@ -18,7 +18,7 @@ FROM renovate/buildpack:6@sha256:77fc989698e57b2ea70b8997eedd7526e7789a8be03606b
 #--------------------------------------
 # Image: containerbase/buildpack
 #--------------------------------------
-FROM simaofsilva/containerbase-buildpack:3.16.1@sha256:2a473ddb0166f2112fbf9f2ca2c2b8b7d50039d7c548be3a74108c049890d9a1 AS buildpack
+FROM simaofsilva/containerbase-buildpack:3.16.2@sha256:12095466b8ab737a1eb56b75f61b4e1fd431403f5f9051049b4e4e399a038f1e AS buildpack
 
 #--------------------------------------
 # Image: base
