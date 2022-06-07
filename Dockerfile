@@ -23,7 +23,7 @@ FROM simaofsilva/containerbase-buildpack:3.17.4@sha256:4564330f5386a492d938b60f2
 #--------------------------------------
 # Image: base
 #--------------------------------------
-FROM ubuntu:focal@sha256:adbc8b8e1a56d35c0789b1e6cbac809efa213802f67a26d0b78fc14eade7d1dd as base
+FROM ubuntu:focal@sha256:61748b23380753625449519a96eb448730966a86acb5453b2d857183c0cd651e as base
 
 ARG USER_ID
 ARG USER_NAME
