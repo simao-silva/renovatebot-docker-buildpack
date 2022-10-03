@@ -48,4 +48,4 @@ RUN install-buildpack
 
 
 # renovate: datasource=github-tags depName=git/git
-RUN install-tool git v2.37.3
+RUN install-tool git v2.38.0
